@@ -19,16 +19,16 @@ private:
 public:
 	void inputMk() {
 
-		cout << "\nMasukan jumlah SKS = ";
+		cout << "Masukan jumlah SKS = ";
 		cin >> sks;
-		cout << "\nMasukan kode MK = ";
+		cout << "Masukan kode MK = ";
 		cin >> kode;
-		cout << "\nMasukan nama MK = ";
+		cout << "Masukan nama MK = ";
 		cin >> namaMk;
 	}
 
 	void tampilMk() {
-		cout << "\nJumlah sks = " << sks;
+		cout << "Jumlah sks = " << sks;
 		cout << "\nKode MK = " << kode;
 		cout << "\nNama MK = " << namaMk << endl;
 	}
@@ -44,13 +44,13 @@ int main() {
 	cout << "Masukkan nama: ";
 	cin >> mhs.nama;
 
-	cout << "Input data mata kuliah:" << endl;
+	cout << "\nInput data mata kuliah:" << endl;
 	mk.inputMk();
 
 	cout << "\nData Mahasiswa:\n";
 	mhs.tampil();
 
-	cout << "\nData Mata Kuliah:\n";
+	cout << "\n\nData Mata Kuliah:\n";
 	mk.tampilMk();
 
 }
