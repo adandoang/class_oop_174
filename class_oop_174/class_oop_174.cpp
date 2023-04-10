@@ -44,4 +44,13 @@ int main() {
 	cout << "Masukkan nama: ";
 	cin >> mhs.nama;
 
+	cout << "Input data mata kuliah:" << endl;
+	mk.inputMk();
 
+	cout << "\nData Mahasiswa:\n";
+	mhs.tampil();
+
+	cout << "\nData Mata Kuliah:\n";
+	mk.tampilMk();
+
+}
