@@ -10,3 +10,12 @@ public:
 		cout << "\nNama = " << nama;
 	}
 };
+
+class Matakuliah {
+private:
+	int sks;
+	string kode;
+	string namaMk;
+public:
+
+};
