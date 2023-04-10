@@ -38,4 +38,10 @@ int main() {
 	Mahasiswa mhs;
 	Matakuliah mk;
 
-	
+	cout << "Input data mahasiswa:" << endl;
+	cout << "Masukkan NIM: ";
+	cin >> mhs.nim;
+	cout << "Masukkan nama: ";
+	cin >> mhs.nama;
+
+
