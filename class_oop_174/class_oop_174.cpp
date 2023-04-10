@@ -6,6 +6,7 @@ public:
 	int nim;
 	string nama;
 	void tampil() {
-		cout
+		cout << "NIM = " << nim;
+		cout << "\nNama = " << nama;
 	}
 };
