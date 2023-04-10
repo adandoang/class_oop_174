@@ -33,3 +33,9 @@ public:
 		cout << "\nNama MK = " << namaMk << endl;
 	}
 };
+
+int main() {
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	
